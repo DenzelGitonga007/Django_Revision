@@ -13,3 +13,6 @@ def home_view(request):
 # About view
 def about_view(request):
     return render(request, 'about.html')
+
+def programs_view(request):
+    return render(render, 'programs.html')
