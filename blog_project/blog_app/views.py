@@ -9,3 +9,7 @@ def home_view(request):
     # return HttpResponse("<h1>Learn Everyday A World of New Possibilities</h1>")
     # Returning the templates
     return render(request, 'home.html', context = {})
+
+# About view
+def about_view(request):
+    return render(request, 'about.html')
